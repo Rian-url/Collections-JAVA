@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b6259c8-a0bd-4f99-ac97-6a2b5b058a45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SET/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SET/ConjuntoPalavrasUnicas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SET/GerenciadorAlunos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SET/ListaTarefa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SET/Tarefa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MAP/ContagemPalavras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MAP/Dicionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MAP/LivrariaOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MAP/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LIST/OrdenacaoNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LIST/OrdenacaoNumeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LIST/SomaNumero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LIST/SomaNumero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +44,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ListaTarefa">
-    <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LIST.CarrinhoDeCompras" />
+  <component name="RunManager" selected="Application.ContagemPalavras">
+    <configuration name="ConjuntoPalavrasUnicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SET.ConjuntoPalavrasUnicas" />
       <module name="Collections-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LIST.*" />
+          <option name="PATTERN" value="SET.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,8 +58,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConjuntoPalavrasUnicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SET.ConjuntoPalavrasUnicas" />
+    <configuration name="ContagemPalavras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MAP.ContagemPalavras" />
+      <module name="Collections-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MAP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dicionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MAP.Dicionario" />
+      <module name="Collections-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MAP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GerenciadorAlunos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SET.GerenciadorAlunos" />
       <module name="Collections-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -87,39 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdenacaoNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LIST.OrdenacaoNumeros" />
-      <module name="Collections-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LIST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomaNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LIST.SomaNumero" />
-      <module name="Collections-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LIST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContagemPalavras" />
+        <item itemvalue="Application.GerenciadorAlunos" />
+        <item itemvalue="Application.Dicionario" />
         <item itemvalue="Application.ListaTarefa" />
         <item itemvalue="Application.ConjuntoPalavrasUnicas" />
-        <item itemvalue="Application.OrdenacaoNumeros" />
-        <item itemvalue="Application.SomaNumero" />
-        <item itemvalue="Application.CarrinhoDeCompras" />
       </list>
     </recent_temporary>
   </component>
